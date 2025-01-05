@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <a name="top"></a>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ff90ba; 
+            color: #333;
+        }
+
+        header {
+            background-image: url('images/BACKGROUND.jpeg');
+            padding: 20px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .gallery-item {
+            background-color: #f8e1e7; /* Light pink */
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .gallery-item p {
+            margin: 10px 0;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 8 px;
+            color: white;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        /* Typewriter animation */
+        .typewriter {
+            display: inline-block;
+            overflow: hidden;
+            border-right: 3px solid pink; /* Cursor effect */
+            white-space: nowrap;
+            letter-spacing: 0.15em;
+            animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            from {
+                border-color: pink;
+            }
+            to {
+                border-color: transparent;
+            }
+        }
+        
+       
+
+          /* Navigation bar styling */
+          .topnav {
+            overflow: hidden;
+            background-color: #222;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .topnav a {
+            float: left;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .topnav a:hover {
+            background-color: #ff66b2;
+            color: #222;
+        }
+
+        .topnav a.active {
+            background-color: #c7aec6;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .gallery {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <a class="active" href="INDEX.html">Home</a>
+        <a href="About Me.html">About Me</a>
+        <a href="My Family.html">My Family</a>
+        <a href="Education Journey.html">Education Journey</a>
+        <a href="TRAVELLING.html">Travelling</a>
+        <a href="GALLERY.html">My Gallery</a>
+        
+
+    </div>
+    <header>
+    <!-- Typewriter Animation Header -->
+        <h1><span class="typewriter">˙✧˖°📷 ༘ ⋆｡˚𝑴𝒚 𝑮𝒂𝒍𝒍𝒆𝒓𝒚˙✧˖°📷 ༘ ⋆｡˚</span></h1>
+    </header>
+    <p> 
+     
+        <div style="text-align: center;"> 
+        <audio controls> 
+            <source src="audio/A Thousand Years.mp3" type="audio/mpeg"> 
+            <source src="audio/A Thousand Years.mp3" type="audio/mpeg"> 
+            Your browser does not support the midea 
+        </audio></div> 
+    </p>
+
+    <section class="gallery">
+        <div class="gallery-item">
+            <a href="images/FAMILY 1.jpeg" target="_blank">
+                <img src="images/FAMILY 1.jpeg" alt="Gallery Image 1"> 
+        <div align="center">
+        <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+        <li>Kilim Geoforest Park</li></div>
+        </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/FAMILY 5.jpeg" target="_blank">
+                <img src="images/FAMILY 5.jpeg" alt="Gallery Image 2">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Dinner at Pagaq Puteh</li></div>
+                    </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/FAMILY 3.jpeg" target="_blank">
+                <img src="images/FAMILY 3.jpeg" alt="Gallery Image 3">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Langkawi</li></div>
+                    </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/FAMILY 4.jpeg" target="_blank">
+                <img src="images/FAMILY 4.jpeg" alt="Gallery Image 4">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Dinner at Jom Amigo Steamboat</li></div>
+                    </ul>
+            </a>
+        </div>
+
+        <div class="gallery-item">
+            <a href="images/FRIEND 1.jpeg" target="_blank">
+                <img src="images/FRIEND 1.jpeg" alt="Gallery Image 5">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Explorace</li></div>
+                    </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/FRIEND 2.jpeg" target="_blank">
+                <img src="images/FRIEND 2.jpeg" alt="Gallery Image 6">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Done Presentation!</li></div>
+                    </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/FRIEND 3.jpeg" target="_blank">
+                <img src="images/FRIEND 3.jpeg" alt="Gallery Image 7">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Arabian Night</li></div>
+                    </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/FRIEND 4.jpeg" target="_blank">
+                <img src="images/FRIEND 4.jpeg" alt="Gallery Image 8">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Treasure Hunt</li></div>
+                    </ul>
+            </a>
+        </div>
+
+        <div class="gallery-item">
+            <a href="images/MANY 1.jpeg" target="_blank">
+                <img src="images/MANY 1.jpeg" alt="Gallery Image 9">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Semester 3 with Dr. Ida</li></div>
+                    </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/MANY 2.jpeg" target="_blank">
+                <img src="images/MANY 2.jpeg" alt="Gallery Image 10">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Cor Class Meeting</li></div>
+                    </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/MANY 3.jpeg" target="_blank">
+                <img src="images/MANY 3.jpeg" alt="Gallery Image 11">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>End of Semester 1</li></div>
+                    </ul>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="images/MANY 4.jpeg" target="_blank">
+                <img src="images/MANY 4.jpeg" alt="Gallery Image 12">
+                <div align="center">
+                    <ul style=" list-style-image: url(images/Bullet\ Arrow\ resize.png);"> 
+                    <li>Appreciation for the school superintendent </li></div>
+                    </ul>
+            </a>
+        </div>
+    </section>
+
+    <div class="content" style="text-align: center;"> 
+        <p><a href="#top">Back to top</a></p> 
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Gallery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
