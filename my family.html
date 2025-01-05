@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <a name="top"></a>
+
+    <!-- Style for body and layout -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('images/RED\ BACKGROUND.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Navigation bar styling */
+        .topnav {
+            overflow: hidden;
+            background-color: #222;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .topnav a {
+            float: left;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .topnav a:hover {
+            background-color: #ff66b2;
+            color: #222;
+        }
+
+        .topnav a.active {
+            background-color: #c7aec6;
+            color: white;
+        }
+
+        /* General content styling */
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: 'Engrave MT', serif;
+        }
+
+         h2 {
+            text-align: center;
+            color: #fae100;
+            font-family: 'Engrave MT', serif;
+        }
+
+        h4 {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        hr {
+            margin: 20px auto;
+        }
+
+        /* Grid container for family images */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .image-grid a {
+            display: block;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+            border: 5px solid #000;
+            border-radius: 10px;
+        }
+
+        /* Individual profile sections */
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .profile img {
+            flex: 1 1 300px;
+            max-width: 300px;
+            margin-right: 20px;
+            border: 5px solid #000000;
+            border-radius: 10px;
+        }
+
+        .profile div {
+            flex: 2 1 500px;
+        }
+
+        .profile a {
+            display: block;
+        }
+
+        blockquote {
+            font-style: italic;
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-left: 5px solid #fae100;
+        }
+
+        footer {
+            text-align: center;
+            padding: 8 px;
+            color: white;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        /* Typewriter animation */
+        .typewriter {
+            display: inline-block;
+            overflow: hidden;
+            border-right: 3px solid pink; /* Cursor effect */
+            white-space: nowrap;
+            letter-spacing: 0.15em;
+            animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            from {
+                border-color: pink;
+            }
+            to {
+                border-color: transparent;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <a class="active" href="INDEX.html">Home</a>
+        <a href="About Me.html">About Me</a>
+        <a href="My Family.html">My Family</a>
+        <a href="Education Journey.html">Education Journey</a>
+        <a href="TRAVELLING.html">Travelling</a>
+        <a href="GALLERY.html">My Gallery</a>
+    </div>
+
+     <!-- Typewriter Animation Header -->
+    <h1><span class="typewriter">₊˚ ☁️⋅♡🪐༘⋆ WELCOME TO MY LOVELY FAMILY ‧₊˚ ☁️⋅♡🪐༘⋆</span></h1>
+    <hr size="5" color="white" width="90%">
+
+    <p> 
+     
+        <div style="text-align: center;"> 
+        <audio controls> 
+            <source src="audio/Kenny G.mp3" type="audio/mpeg"> 
+            <source src="audio/Kenny G.mp3" type="audio/mpeg"> 
+            Your browser does not support the midea 
+        </audio></div> 
+    </p>
+
+    <!-- Family Image Grid -->
+    <div class="image-grid">
+        <a href="images/FAMILY 1.jpeg"><img src="images/FAMILY 1.jpeg" alt="Family 1"></a>
+        <a href="images/FAMILY 2.jpeg"><img src="images/FAMILY 2.jpeg" alt="Family 2"></a>
+        <a href="images/FAMILY 3.jpeg"><img src="images/FAMILY 3.jpeg" alt="Family 3"></a>
+        <a href="images/FAMILY 4.jpeg"><img src="images/FAMILY 4.jpeg" alt="Family 4"></a>
+    </div>
+
+    <hr size="5" color="white" width="90%">
+
+    <!-- Profiles -->
+    <div class="profile">
+        <a href="images/PAPA.jpeg"><img src="images/PAPA.jpeg" alt="Papa"></a>
+        <div>
+            <h2>Mohd Nasrul Hakim Bin Yem</h2>
+            <h4>
+            
+            <br>
+            Papa, was born in 1977, making him 47 years old this year. 
+            He is the pillar of our family, known for his strength, wisdom, and unwavering support. 
+            A hardworking and dedicated individual, Papa balances his responsibilities at work and 
+            home effortlessly.
+            </br>
+
+            <br>
+            He has a great sense of humor and enjoys spending quality time with the family, 
+            whether sharing stories or organizing fun activities. His hobbies include gardening and cooking, 
+            where his creativity truly shines.
+            </br>
+
+            <br>
+            Papa is not just a father but also a mentor and friend, always guiding us with kindness and 
+            encouraging us to chase our dreams. His love and support are the foundation of our happiness, 
+            and we are proud to call him our Papa.
+            </br>
+
+            </h4>
+        </div>
+    </div>
+
+    <div class="profile">
+        <a href="images/MAMA.jpeg"><img src="images/MAMA.jpeg" alt="Mama"></a>
+        <div>
+            <h2>Nor Azreen Binti Jamil</h2>
+            <h4>
+
+    Mama, was born in 1981, making him 43 years old this year.  Mama has grown into a remarkable woman who 
+    embodies love, resilience, and wisdom. She is a source of inspiration to everyone around her. 
+    <br>
+
+    <br>
+    Mama is not only a dedicated mother but also a nurturer who ensures that her family feels loved and 
+    supported. Beyond her role in the family, Mama is known for her kindness and generosity.
+     Whether it's helping a friend in need or offering a warm smile to a stranger, her compassion leaves a 
+     lasting impact.
+    </br>
+
+    <br>
+    Her favorite pastime is creating cozy moments, whether by cooking delicious meals for the family or 
+    sharing heartfelt stories that bring everyone closer. As she continues her journey, Mama remains a symbol 
+    of strength, love, and grace. 
+    </br>
+            </h4>
+        </div>
+    </div>
+
+    <div class="profile">
+        <a href="images/HAZEERAH.jpeg"><img src="images/HAZEERAH.jpeg" alt="Hazeerah" height="400"></a>
+        <div>
+            <h2>Nur Hazeerah Binti Mohd Nasrul Hakim</h2>
+            <h4>
+            
+            Hazeerah, was born in 2004, making me 20 years old this year. 
+            Me as the first daughter in my family, I has embraced my role with a strong sense 
+            of responsibility and care to the other, often setting an example for her siblings 
+            through my actions and values.
+            <br>
+
+            <br>
+            My journey has been shaped by my dedication to learning and the ability to adapt to new 
+            challenges. Whether it’s excelling in my academic endeavors or taking on responsibilities 
+            in my professional life, i have demonstrates a strong work ethic and an eagerness to succeed.
+            </br>
+
+            <br>
+            Outside of of my achievements, I values meaningful connections with family and friends. 
+             I also enjoys exploring her creative side, which reflects vibrant and 
+            dynamic personality.
+            </br> 
+
+            </h4>
+        </div>
+    </div>
+
+    <div class="profile">
+        <a href="images/HAFIZ.jpeg"><img src="images/HAFIZ.jpeg" alt="Hafiz" height="400"></a>
+        <div>
+            <h2>Nor Hafiz Bin Mohd Nasrul Hakim</h2>
+            <h4>
+                
+                Hafiz, was born in 2007, making him 17 years old this year. He brings immense love and warmth to everyone
+                around him. As the only brother in the family and someone with Down syndrome, Hafiz is a 
+                shining example of resilience, joy, and unconditional love. 
+              <br>
+
+               <br>
+               Hafiz presence lights up the room with his infectious laughter and pure heart. 
+               His ability to find happiness in simple things reminds others to appreciate life little moments. 
+               He is a source of strength and a constant reminder of the importance of kindness and patience.
+               </br>
+                               
+               <br>
+               As a beloved member of the family, Hafiz holds a special place in everyone hearts. 
+               His siblings admire his courage and often find themselves learning valuable lessons about 
+               perseverance and love from him. 
+
+            </h4>
+        </div>
+    </div>
+
+    <div class="profile">
+        <a href="images/YAYA.jpeg"><img src="images/YAYA.jpeg" alt="Yaya" height="400"></a>
+        <div>
+            <h2>Nur Hidayah Binti Mohd Nasrul Hakim</h2>
+            <h4>
+        
+Hidayah or Yaya, was born in 2012, making she 12 years old this year. She is the undeniable genius of our 
+family. What makes her stand out is her extraordinary ability to excel in every examination despite being 
+famously laid-back and often lazy when it comes to studying. 
+<br>         
+
+<br>
+Her sharp mind and natural aptitude for learning are truly remarkable. While she may not spend hours buried 
+in books, she has a knack for grasping concepts quickly and performing exceptionally well under pressure. 
+</br>
+            
+<br>
+Beyond her academic achievements, my sister is full of character. Her witty humor and playful nature bring 
+joy to our family, making her a delight to be around. 
+</br>
+            </h4>
+        </div>
+    </div>
+
+    <div class="profile">
+        <a href="images/HUDA.jpeg"><img src="images/HUDA.jpeg" alt="Huda" height="400" width="400"></a>
+        <div>
+            <h2>Nur Huda Binti Mohd Nasrul Hakim</h2>
+            <h4>
+
+<br>
+            
+Huda my youngest siblings, was born in 2016, making she 8 years old this year. She is the creative heart of our 
+family. Unlike others who excel in academics, she shines in her own unique way as an artistic soul. 
+<br>
+
+<br>
+Her love for art is evident in everything she does. Whether she sketching pictures, 
+humming a tune, or coming up with imaginative ideas, she brings color and life to our everyday moments. 
+Her creativity is not just a talent but also a way she expresses her emotions and views of the world around her.
+</br>
+                            
+<br>
+Although academics may not be her strong suit, her abilities in the arts remind us that intelligence 
+comes in many forms. She teaches us that creativity is just as important as traditional knowledge, 
+and her perspective inspires us to appreciate beauty in its many forms.
+</br>
+</h4>
+</div>
+</div>
+
+    <hr size="5" color="white" width="90%">
+
+    <!-- Inspirational Quote -->
+    <blockquote>
+        <h1>Inspirational Quotes</h1>
+        <h2><i> ˚ ༘ ೀ⋆｡˚  "Family is a unique gift that needs to be appreciated and treasured" ˚ ༘ ೀ⋆｡˚ </i> </h2>
+    </blockquote>
+
+    <div class="content" style="text-align: center;"> 
+        <p><a href="#top">Back to top</a></p> 
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Family. All rights reserved.</p>
+    </footer>
